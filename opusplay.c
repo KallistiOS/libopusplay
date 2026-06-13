@@ -7,7 +7,7 @@
 
    sndoggvorbis.c
    Copyright (C) 2001, 2002 Thorsten Titze
-   Copyright (C) 2002, 2003, 2004 Dan Potter
+   Copyright (C) 2002, 2003, 2004 Megan Potter
 
    An Ogg/Vorbis player library using sndstream and functions provided by
    ivorbisfile (Tremor).
@@ -41,11 +41,11 @@
 #define BUF_SIZE 65536
 
 /* Buffer-related variables. */
-static uint8 pcm_buffer[BUF_SIZE + 16384];
-static uint8 *pcm_ptr = pcm_buffer;
+static uint8_t pcm_buffer[BUF_SIZE + 16384];
+static uint8_t *pcm_ptr = pcm_buffer;
 
-static int32 pcm_count = 0;
-static int32 last_read = 0;
+static int32_t pcm_count = 0;
+static int32_t last_read = 0;
 
 /* Library status related variables */
 static OggOpusFile *vf;

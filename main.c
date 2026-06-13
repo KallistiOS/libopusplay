@@ -7,7 +7,7 @@
    KallistiOS Ogg/Vorbis Decoder Library for KOS (liboggvorbisplay)
 
    Copyright (C) 2001, 2002 Thorsten Titze
-   Copyright (C) 2002, 2003, 2004 Dan Potter
+   Copyright (C) 2002, 2003, 2004 Megan Potter
 */
 
 #include <kos/thread.h>
